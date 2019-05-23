@@ -1,10 +1,11 @@
 body#home {
+    font-family: "apercu", -apple-system, system, sans-serif;
     display: block;
     margin: 0px;
 }
 
 div#site-wrapper {
-    font-family: "apercu"; /* -apple-system, system, sans-serif;*/
+    /* font-family: "apercu"; -apple-system, system, sans-serif;*/
     font-weight: 900;
     display: flex;
     flex-wrap: wrap;
@@ -114,7 +115,12 @@ li.section-tag {
     margin-top: 20px;    
 }
 
-a.section-tag-text:hover {
+a.section-tag-text {
+    color: #f74843;
+    text-decoration: none;
+}
+
+a.section-tag-text-hover:hover {
     cursor: pointer;
     color: white;
 }
@@ -122,12 +128,12 @@ a.section-tag-text:hover {
 footer#main-footer {
     margin-top: 50px;
     background-color: #f74843;
-    font-family: "apercu", -apple-system, system, sans-serif;
     display: flex;
     justify-content: center;
 }
 
 div#footer-wrapper {
+    width: 1150px;
     min-width: 900px;
     display: flex;
     justify-content: space-between;
@@ -136,15 +142,20 @@ div#footer-wrapper {
 }
 
 div#cdr-footer {
-    color: white;
     margin-top: 10px;
 }
 
-a#cdr-footer-text:hover {
-    cursor: pointer;
+a.cdr-footer-text {
+    color: white;
+    text-decoration: none;
+}
+
+a.cdr-footer-text-hover:hover {
+    cursor: pointer;    
 }
 
 div.footer-box {
+    flex-shrink: 0.8;
     color: white;
 }
 
