@@ -133,7 +133,7 @@ footer#main-footer {
 }
 
 div#footer-wrapper {
-    width: 1150px;
+    width: calc(100% - 40vw);
     min-width: 900px;
     display: flex;
     justify-content: space-between;
