@@ -26,6 +26,15 @@ div#background{
     z-index: -1;
 }
 
+video#background-video {
+    position: fixed;
+    object-fit: contain;
+    min-width: 100%;
+    min-height: 100%;
+    height: auto;
+    width: auto;
+}
+
 img#background-art {
     position: fixed;
     object-fit: cover;
