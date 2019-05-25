@@ -1,11 +1,11 @@
 body#home {
-    font-family: "apercu", -apple-system, system, sans-serif;
+    font-family: "apercu", -apple-system, system, sans-serif; /*-apple-system, system, sans-serif; */
+    font-weight: 900;
     display: block;
     margin: 0px;
 }
 
 div#site-wrapper {
-    font-weight: 900;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -70,13 +70,14 @@ div#about-wrapper {
     width: 45%;
 }
 
-h1#about-header {
+h1.header-text {
     color: #f74843;
     cursor: pointer;
-    font-size: 35px;    
+    font-size: 35px;   
+    font-weight: bold; 
 }
 
-a#about-header-text:hover {
+a.hover-text:hover {
     cursor: pointer;
     color: white;
 }
@@ -94,13 +95,44 @@ div#search-wrapper {
 
 div#search-offset {
     align-self: flex-end;
-    border-bottom: white, 2px;
-    /*justify-self: center;*/
+    border-bottom: white 2px;
+    width: 80%;
 }
 
-a#search-form-text {
-    color: white;
+div#search-form-input {
+    color: #f74843;
+    border-bottom: 2px white solid;
+    padding: 10px 0px;
     font-size: 25px;
+}
+
+input#filter-input {
+    color: #f74843;
+    font-size: 25px;
+    background: transparent;
+    border: none;
+    width: calc(100% - 41px);
+}
+input.focus {
+    outline-width: 0px;
+}
+
+::placeholder {
+    color: white;
+}
+
+::-ms-input-placeholder {
+    color: white;
+}
+
+button#search-button {
+    height: 30px;
+    width: 30px;
+    margin-bottom: -10px;
+    border: none;
+    background: none;
+    background-size: cover;
+    background-image: url(../images/search-button.png)
 }
 
 section#section-wrapper {
@@ -122,11 +154,6 @@ li.section-tag {
 a.section-tag-text {
     color: #f74843;
     text-decoration: none;
-}
-
-a.section-tag-text-hover:hover {
-    cursor: pointer;
-    color: white;
 }
 
 footer#main-footer {
@@ -176,11 +203,6 @@ li.fisrt-footer-list-item {
 li.footer-list-tag {
     color: black;
     margin-bottom: 10px;
-}
-
-a.footer-list-text:hover {
-    color: white;
-    cursor: pointer;
 }
 
 div#gog-logo {

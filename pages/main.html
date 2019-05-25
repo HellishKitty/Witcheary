@@ -25,7 +25,7 @@
             </header>
             <div id="about-and-search">
                 <div id="about-wrapper">
-                    <h1 id="about-header"> <a id="about-header-text"> Welcome to one of the largest witcher fan portal
+                    <h1 class="header-text"> <a class="hover-text"> Welcome to one of the largest witcher fan portal
                         </a>
                     </h1>
                     <a id="about-text">
@@ -37,31 +37,35 @@
                 </div>
                 <div id="search-wrapper">
                     <div id="search-offset">
-                        <!-- TODO: Допилить нормальный jump to: оформить всё в <form> -->
-                        <a id="search-form-text"> Type to search </a>
+                        <div id="search-form-input">
+                            <form>
+                                <input placeholder="Type to search" id="filter-input" class="focus">
+                                <button id="search-button"></button>
+                            </form>     
+                        </div>
                     </div>
                 </div>
             </div>
             <section id="section-wrapper">
                 <ul id="section-tag-list">
-                    <li class="section-tag"><a class="section-tag-text-hover">News</a></li>
-                    <li class="section-tag"><a class="section-tag-text-hover">Glossary</a></li>
+                    <li class="section-tag"><a class="hover-text">News</a></li>
+                    <li class="section-tag"><a class="hover-text">Glossary</a></li>
                     <li class="section-tag">
-                        <a class="section-tag-text section-tag-text-hover" 
+                        <a class="section-tag-text hover-text" 
                         href="https://vedmak.fandom.com/wiki/Заглавная_страница" 
                         target="_blank" rel="noopener noreferrer" >Wiki
                         </a>
                     </li>
-                    <li class="section-tag"><a class="section-tag-text-hover">See art</a></li>
-                    <li class="section-tag"><a class="section-tag-text-hover">Watch related videos</a></li>
+                    <li class="section-tag"><a class="hover-text">See art</a></li>
+                    <li class="section-tag"><a class="hover-text">Watch related videos</a></li>
                     <li class="section-tag">
-                        <a class="section-tag-text section-tag-text-hover" href="https://www.witcherstore.com/"
+                        <a class="section-tag-text hover-text" href="https://www.witcherstore.com/"
                         target="_blank" rel="noopener noreferrer">
                         Check out merch</a>
                     </li>
-                    <li class="section-tag"><a class="section-tag-text-hover">Join community</a></li>
-                    <li class="section-tag"><a class="section-tag-text-hover">Help us get better</a></li>
-                    <li class="section-tag"><a class="section-tag-text-hover">Did we miss something?</a></li>
+                    <li class="section-tag"><a class="hover-text">Join community</a></li>
+                    <li class="section-tag"><a class="hover-text">Help us get better</a></li>
+                    <li class="section-tag"><a class="hover-text">Did we miss something?</a></li>
                 </ul>
             </section>
         </div>
@@ -75,16 +79,16 @@
             <div class="footer-box">
                 <ul class="footer-list">
                     <li class="fisrt-footer-list-item"> Contact </li>
-                    <li class="footer-list-tag"> <a class="footer-list-text"> E-mail </a> </li>
-                    <li class="footer-list-tag"> <a class="footer-list-text"> Social networks</a> </li>
+                    <li class="footer-list-tag"> <a class="hover-text"> E-mail </a> </li>
+                    <li class="footer-list-tag"> <a class="hover-text"> Social networks</a> </li>
                 </ul>
             </div>
             <div class="footer-box">
                 <ul class="footer-list">
                     <li class="fisrt-footer-list-item"> Stuff </li>
-                    <li class="footer-list-tag"> <a class="footer-list-text"> About us </a></li>
-                    <li class="footer-list-tag"> <a class="footer-list-text"> Site terms of use </a></li>
-                    <li class="footer-list-tag"> <a class="footer-list-text"> CD project partners </a></li>
+                    <li class="footer-list-tag"> <a class="hover-text"> About us </a></li>
+                    <li class="footer-list-tag"> <a class="hover-text"> Site terms of use </a></li>
+                    <li class="footer-list-tag"> <a class="hover-text"> CD project partners </a></li>
                 </ul>
             </div>
             <div id="gog-logo">
