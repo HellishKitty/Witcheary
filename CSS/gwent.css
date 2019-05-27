@@ -32,19 +32,22 @@ div#navigation-wrapper {
 nav#navigation-bar {
     display: flex;
     min-width: 1280px;
+}
+
+a.nav-text {
+    text-decoration: none;
     color: #cccccc;
     font-size: 24px;
+}
+
+a.nav-text-hover:hover {
+    color: white;
 }
 
 div.nav-button {
     padding: 10px 10px;
     margin: 10px 0px;
     text-align: center;
-}
-
-div.nav-button-hover:hover {
-    color: white;
-    cursor: pointer;
 }
 
 div#outer-video-wrapper {
